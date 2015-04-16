@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: php-fpm
+# Cookbook Name:: application-configuration
 # Recipe:: default
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -18,4 +18,4 @@
 include_recipe "apt"
 include_recipe "php"
 
-include_recipe "php-fpm::fpm-configure"
+include_recipe "configure"

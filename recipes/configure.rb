@@ -19,7 +19,7 @@
 # Overwrite existing /etc/php5/fpm/pool.d/www.conf with template one.
 #
 template "/etc/php5/fpm/pool.d/www.conf" do
-    source "www.erb"
+    source "www.conf.erb"
     owner "root"
     group "root"
     mode 00644
