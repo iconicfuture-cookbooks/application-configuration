@@ -1,4 +1,4 @@
-name             "php-fpm"
+name             "application-configuration"
 maintainer_email "mathias.latzko@iconicfuture.com"
 maintainer       "Mathias Latzko"
 license          "Apache 2.0"
